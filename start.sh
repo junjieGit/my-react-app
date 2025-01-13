@@ -11,14 +11,11 @@ rm -rf node_modules
 # 清除旧的缓存
 echo "Clearing npm cache..."
 npm cache clean --force
-
-node --verison
-npm --verison
  
 # 安装项目依赖
 echo "Installing dependencies..."
 npm install
- 
+
 # 启动项目
 # echo "Starting the project..."
 # npm start
